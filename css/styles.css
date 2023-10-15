@@ -1,0 +1,128 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background-color: #1E1E1E;
+    color: #F8F7F3;
+}
+
+.socmed {
+    height: 1.4rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.status, .footer {
+    opacity: 35%;
+}
+
+.main-container {
+    display: flex;
+    margin: auto; /* tengahin */
+    width: 50rem;
+    flex-direction: column; /* nempatin div atas bawah */
+}
+
+.nav-bar {
+    margin: auto; /* tengahin */
+    display: inline-flex; /* bikin jadi 1 baris */
+    gap: 7rem; /* jarak antar tulisan */
+    width: fit-content;
+    align-items: center; /* sejajarin komponen nav-bar*/
+}
+
+a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+#github > img {
+    width: 1.4rem;
+    height: 1.4rem;
+}
+
+.profile {
+    padding: 1rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+    gap: 9rem;
+}
+
+.profile img {
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 1.25rem;
+}
+
+.status {
+    font-size: 1rem;
+}
+
+hr {
+    width: 43rem;
+    opacity: 50%;
+}
+
+.content {
+    margin: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.content-items p {
+    text-align: left;
+    font-size: 1rem;
+    margin: 0.75rem;
+}
+
+.content-title p {
+    font-size: 1.5rem;
+    border-bottom: 0.2rem solid #458AF2;
+}
+
+#title-edu {
+    width: 6.7rem;
+}
+
+.edu-univ p:nth-child(2), .edu-hs p:nth-child(2) {
+    font-size: 0.9rem;
+    opacity: 35%;
+    justify-items: right;
+}
+
+.edu-univ p, .edu-hs p {
+    margin: 0;
+}
+
+#title-socials {
+    width: 4.9rem;
+}
+
+.socmed-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.spotify img {
+    width: 1.4rem;
+    height: 1.4rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    display: block;
+    font-size: 0.75rem;
+    position: relative;
+    bottom: -10rem;
+}
